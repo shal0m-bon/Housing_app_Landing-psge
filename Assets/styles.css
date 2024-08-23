@@ -1,0 +1,214 @@
+body{
+    background-color: antiquewhite;
+    text-shadow: 1px 1px 2px grey;
+}
+p{
+    font-size: 25px;
+    color: rgb(116, 116, 116);
+}
+.main{
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    background-color: antiquewhite;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: sticky;
+    top: -20px;
+    margin-top: 0;
+}
+.header h1 span{
+    color: rgb(70, 201, 253);
+}
+/* .navigation{
+    justify-content: space-around;
+ 
+} */
+ul{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;    
+}
+li{
+    margin: 20px;
+    display: inline-block;
+    color: rgb(84, 84, 84);
+    text-shadow: 1px 1px 2px grey;
+}
+a[href="#ae"]{
+    margin: 30px;
+    color: rgb(84, 84, 84);
+    font-size: 20px;
+}
+a[href="#home"]{
+    color: rgb(26, 26, 26);
+    font-weight: bold;
+    font-size: 30px;
+     text-decoration: none;
+}
+a[href="#"]{
+    color: rgb(84, 84, 84);
+    font-size: 30px;
+    text-decoration: none;
+}
+.top_div{
+    background-image: url(/images/bck.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-attachment: fixed; */
+    width: device-width;
+    height: 840px;
+    /* border: solid; */
+    margin-top: 70px;
+}
+.main_text{
+    margin-top: 250px;
+    text-align: center;
+}
+.main_text h2{
+    margin-top: 250px;
+    font-size: 80px;
+    color: antiquewhite;
+    text-align: center;
+}
+.main_text button{
+    background-color: antiquewhite;
+    width: 15em;
+    height: 50px;
+    border:2px solid rgb(70, 201, 253);
+    border-radius: 15px;
+    font-size: 20px;
+    margin-left: 5px;
+    color:rgb(70, 201, 253);
+
+}
+div.semi_top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: device-width;
+    white-space: nowrap;
+    height: 780px;
+}
+.text{
+    text-shadow: none;
+    margin: 90px;
+    margin-left: 60px;
+}
+.text h3{
+    font-size: 50px;
+    text-shadow: none;
+    line-height: 70px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.text p{
+    font-size: 30px;
+    color: grey;
+    text-transform: uppercase;
+    line-height: 60px;
+}
+.text button{
+    width: 15em;
+    height: 50px;
+    border:2px solid rgb(70, 201, 253);
+    border-radius: 15px;
+    font-size: 20px;
+    margin-left: 5px;
+    color:rgb(70, 201, 253);
+    background-color: antiquewhite;
+}
+.flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.pics .image1{
+    position: relative;
+    top: 120px;
+    right: 300px;
+}
+.pics .image2{
+    position: absolute;
+    right: 50px;
+    top: 1260px;
+}
+
+.testimonies{
+    background-color: rgb(32, 179, 238);
+    width: device-width;
+    height: 1100px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+
+}
+.testimonies .testimony{
+    background-color: rgb(70, 201, 253);
+    border-radius: 15px;
+    width: 570px;
+    height: 670px;
+    margin-left: 50px;
+    margin-top: 100px;
+
+}
+.testimonies .testimony .text_div{
+    background-color: antiquewhite;
+    border-radius: 15px;
+    width: 480px;
+    height: 340px;
+    margin-top: 20px;
+    margin-left: 15px;
+    font-size: 25px;
+    font-weight: lighter;
+    padding: 10px;
+}
+.img{
+    background-image: url(/images/IMAGE.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+    width: 200px;
+    height: 230px;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+.testimonies .testimony .flex{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+}
+.testimonies h1{
+    text-align: center; 
+    font-size: 40px;
+    margin-top: 30px;
+    color: antiquewhite;
+}
+.dots{
+    font-size: 80px;
+    text-align: center;
+    color: antiquewhite;
+}
+.mid{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: device-width;
+    white-space: nowrap;
+    height: 1280px;
+    border: none;
+}
+.man{
+    background-image: url(/images/IMAGE_man.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 1280px;
+    /* height: 1280px; */
+   /* margin-left: 230px;
+} 
